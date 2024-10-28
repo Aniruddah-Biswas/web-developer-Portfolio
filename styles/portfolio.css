@@ -21,7 +21,20 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+ .section_title{
+   color: #181818;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
 
+
+}
+.section_discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 700; */
+}
 /* nav related style */
 
 nav{
@@ -86,4 +99,24 @@ nav a{
 .banner_discriptio{
    margin-top: 0;
 
+}
+/* main section style */
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3 ;
+    margin: 130px 0;
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.about_info{
+    text-align: center;
 }
