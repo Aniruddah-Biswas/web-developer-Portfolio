@@ -91,7 +91,7 @@ nav a{
 
 }
 .banner_titel{
-    font-size:85px ;
+    font-size:80px ;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -104,6 +104,7 @@ nav a{
 main{
     max-width: 1140px;
     margin:0 auto;
+    /* justify-content:center; */
 }
 /* about section style */
 .about{
