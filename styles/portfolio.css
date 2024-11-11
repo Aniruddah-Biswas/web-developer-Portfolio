@@ -152,7 +152,7 @@ main section{
 
 }
 .resume_container{
-    display: flex;
+    display:flex;
 }
 .resume_column{
     /* display: flex; */
