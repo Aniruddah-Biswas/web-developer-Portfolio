@@ -106,6 +106,9 @@ main{
     margin:0 auto;
     /* justify-content:center; */
 }
+main section{
+    margin-top: 130px;
+}
 /* about section style */
 .about{
     padding: 130px;
@@ -121,6 +124,36 @@ main{
 .about_info{
     text-align: center;
 }
+ /* skill related style */
 #what_I_do_discription{
     padding:30px 150px ;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+.skills_container{
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-around */
+}
+.skill_discription{
+    color: #757575;
+}
+/* Resume Section styles */
+
+.resume_column_title{
+   color: #474747;
+   font-size: 30px; 
+   font-weight: 700;
+   
+
+}
+.resume_container{
+    display: flex;
+}
+.resume_column{
+    /* display: flex; */
 }
