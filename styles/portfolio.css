@@ -178,7 +178,27 @@ main section{
 /* Footer Style */
 footer{
     display: flex;
+    gap: 100px;
     background-color:#fff8f3 ;
     padding: 130px 200px;
-    margin-top: 30px;
+    margin-top: 100px;
+
+}
+.secial_link a{
+   margin-right:25px ; 
+}
+.footer_column{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"] ,textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 100%;
+
 }
